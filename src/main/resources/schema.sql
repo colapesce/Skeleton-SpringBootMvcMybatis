@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS USERS;
+
+CREATE TABLE USERS (
+	id INTEGER,
+	name VARCHAR(255),
+	surname VARCHAR(255),
+	address VARCHAR(255),
+	phone VARCHAR(255),
+	email VARCHAR(255)
+);
